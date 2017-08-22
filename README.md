@@ -1,4 +1,4 @@
-# goamz - An Amazon Library for Go 
+# goamz - An Amazon Library for Go
 
 Current API documentation: [![GoDoc](https://godoc.org/github.com/mitchellh/goamz?status.svg)](https://godoc.org/github.com/mitchellh/goamz)
 
@@ -8,8 +8,8 @@ that adds some missing API calls to certain packages.
 This library is *incomplete*, but implements a large amount of the AWS API.
 It is heavily used in projects such as
 [Terraform](https://github.com/hashicorp/terraform) and
-[Packer](https://github.com/mitchellh/packer). 
-If you find anything missing from this library, 
+[Packer](https://github.com/mitchellh/packer).
+If you find anything missing from this library,
 please [file an issue](https://github.com/mitchellh/goamz).
 
 ## Example Usage
