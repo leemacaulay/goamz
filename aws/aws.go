@@ -124,6 +124,23 @@ var EUWest = Region{
 	"https://route53.amazonaws.com",
 }
 
+var EULondon = Region{
+	"eu-west-2",
+	"https://ec2.eu-west-2.amazonaws.com",
+	"https://s3-eu-west-2.amazonaws.com",
+	"",
+	true,
+	true,
+	"https://sdb.eu-west-2.amazonaws.com",
+	"https://sns.eu-west-2.amazonaws.com",
+	"https://sqs.eu-west-2.amazonaws.com",
+	"https://iam.amazonaws.com",
+	"https://elasticloadbalancing.eu-west-2.amazonaws.com",
+	"https://autoscaling.eu-west-2.amazonaws.com",
+	"https://rds.eu-west-2.amazonaws.com",
+	"https://route53.amazonaws.com",
+}
+
 var EUCentral = Region{
 	"eu-central-1",
 	"https://ec2.eu-central-1.amazonaws.com",
@@ -231,6 +248,7 @@ var Regions = map[string]Region{
 	APSoutheast.Name:  APSoutheast,
 	APSoutheast2.Name: APSoutheast2,
 	EUWest.Name:       EUWest,
+	EULondon.Name:		 EULondon,
 	EUCentral.Name:    EUCentral,
 	USEast.Name:       USEast,
 	USWest.Name:       USWest,
