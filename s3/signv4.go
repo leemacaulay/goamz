@@ -5,7 +5,7 @@ import (
 	"crypto/hmac"
 	"crypto/sha256"
 	"fmt"
-	"github.com/mitchellh/goamz/aws"
+	"github.com/leemacaulay/goamz/aws"
 	"io/ioutil"
 	"net/http"
 	"net/url"
